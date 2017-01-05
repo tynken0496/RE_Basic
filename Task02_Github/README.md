@@ -3,6 +3,7 @@
 > Thực hiện: Nguyễn Văn Thành
 >
 > Tham khảo: Internet
+>
 >Cập nhật lần cuối: 05/01/2017
 
 ### Mục lục
@@ -13,8 +14,7 @@
 
 [2. Cài đặt Git và thiết lập ban đầu](#2)
 
- - [2.1. Cài đặt Git](#2.1)
-<ul>
+ - [2.1. Cài đặt Git](#2.1)<ul>
 <li>[2.1.1. Ubuntu ](#2.1.1)</li>
 <li>[2.1.2. Mac OS](#2.1.2)</li>
 <li>[2.1.3. Windows](#2.1.2)</li>
