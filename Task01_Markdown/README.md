@@ -2,7 +2,9 @@
 # Tìm hiểu về Markdown
 >
 > Tài liệu tham khảo: internet
+>
 > Thực hiện: **Nguyễn Văn Thành**
+>
 > Cập nhật lần cuối: **04/01/2017**
 >
 
@@ -47,12 +49,10 @@
 
 
 ###1. Tìm hiểu xem markdown là gì? Dùng để làm gì?<a name="1"></a>
-
- - ####1.1 Tìm hiểu xem markdown là gì?<a name="1.1"></a>
+####1.1 Tìm hiểu xem markdown là gì?<a name="1.1"></a>
 
 **_Markdown_** là ngôn ngữ đánh dấu văn bản được tạo ra bởi John Gruber. Markdown sử dụng cú pháp khá đơn giản và dễ hiểu để đánh dấu văn bản và văn bản được viết bằng Markdown sẽ có thể được chuyển đổi sang HTML. Ngược lại các văn bản được viết bằng HTML cũng có thể được chuyển đổi sang Markdown.
-
- - ####1.2  Dùng để làm gì?<a name="1.2"></a>
+####1.2  Dùng để làm gì?<a name="1.2"></a>
 
 **_Markdown_** hiện tại còn được chính thức sử dụng trên github.com, stackoverflow.com, Atlassian Stash…: trong các file README.md, trong bất kỳ chỗ nào cần phải viết.
 
