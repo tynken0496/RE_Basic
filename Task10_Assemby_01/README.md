@@ -189,23 +189,23 @@ mở rộng kiến trúc, và đã hỗ trợ mạnh mẽ cho các macro.
 
      - Test    [Toán hạng đích], [Toán hạng nguồn]
 
- -     Lệnh Not (Logical Not): Thực hiện việc đảo ngược từng bít trong nội dung của [Toán hạng đích]. Lệnh này không làm ảnh hưởng đến các cờ.
+ - Lệnh **Not** (Logical Not): Thực hiện việc đảo ngược từng bít trong nội dung của [Toán hạng đích]. Lệnh này không làm ảnh hưởng đến các cờ.
 
- -Lệnh Not thường được sử dụng để tạo dạng bù 1 của [Toán hạng đích].        
+ -Lệnh **Not** thường được sử dụng để tạo dạng bù 1 của [Toán hạng đích].        
 
--     Lệnh And (Logical And): Thực hiện phép tính logic And trên từng cặp bít (tương ứng về vị trí) của [Toán hạng nguồn] với [Toán hạng đích], kết quả lưu vào [Toán hạng đích].
+- Lệnh **And** (Logical And): Thực hiện phép tính logic And trên từng cặp bít (tương ứng về vị trí) của [Toán hạng nguồn] với [Toán hạng đích], kết quả lưu vào [Toán hạng đích].
 
-Lệnh And thường được sử dụng để xóa (= 0) một hoặc nhiều bít xác định nào đó trong một thanh ghi.
+Lệnh **And** thường được sử dụng để xóa (= 0) một hoặc nhiều bít xác định nào đó trong một thanh ghi.
 
--     Lệnh Or (Logical Inclusive Or):Thực hiện phép tính logic Or trên từng cặp bít (tương ứng về vị trí) của [Toán hạng nguồn] với [Toán hạng đích], kết quả lưu vào [Toán hạng đích].
+- Lệnh **Or **(Logical Inclusive Or):Thực hiện phép tính logic Or trên từng cặp bít (tương ứng về vị trí) của [Toán hạng nguồn] với [Toán hạng đích], kết quả lưu vào [Toán hạng đích].
 
-Lệnh Or thường dùng để thiết lập (= 1) một hoặc nhiều bít xác định nào đó trong một thanh ghi.
+Lệnh** Or **thường dùng để thiết lập (= 1) một hoặc nhiều bít xác định nào đó trong một thanh ghi.
 
--     Lệnh Xor (eXclusive OR):Thực hiện phép tính logic Xor trên từng cặp bít (tương ứng về vị trí) của [Toán hạng nguồn] với [Toán hạng đích], kết quả lưu vào [Toán hạng đích].
+- Lệnh **Xor** (eXclusive OR):Thực hiện phép tính logic Xor trên từng cặp bít (tương ứng về vị trí) của [Toán hạng nguồn] với [Toán hạng đích], kết quả lưu vào [Toán hạng đích].
 
-Lệnh Xor thường dùng để so sánh (bằng nhau hay khác nhau) giá trị của hai toán hạng, nó cũng giúp phát hiện ra các bít khác nhau giữa hai toán hạng này.  
+Lệnh **Xor** thường dùng để so sánh (bằng nhau hay khác nhau) giá trị của hai toán hạng, nó cũng giúp phát hiện ra các bít khác nhau giữa hai toán hạng này.  
 
--     Lệnh Test: Tương tự như lệnh And nhưng không ghi kết quả vào lại [Toán hạng đích], nó chỉ ảnh hưởng đến các cờ CF, OF, ZF,...
+- Lệnh **Test**: Tương tự như lệnh And nhưng không ghi kết quả vào lại [Toán hạng đích], nó chỉ ảnh hưởng đến các cờ CF, OF, ZF,...
 
 #####2.3. Câu lệnh gán<a name="2.3"></a>
 
