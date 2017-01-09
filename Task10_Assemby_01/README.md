@@ -183,7 +183,7 @@ mở rộng kiến trúc, và đã hỗ trợ mạnh mẽ cho các macro.
 
      - And     [Toán hạng đích], [Toán hạng nguồn]
 
-     - Or       [Toán hạng đích], [Toán hạng nguồn]
+     - Or      [Toán hạng đích], [Toán hạng nguồn]
 
      - Xor     [Toán hạng đích], [Toán hạng nguồn]
 
@@ -191,15 +191,15 @@ mở rộng kiến trúc, và đã hỗ trợ mạnh mẽ cho các macro.
 
  - Lệnh **Not** (Logical Not): Thực hiện việc đảo ngược từng bít trong nội dung của [Toán hạng đích]. Lệnh này không làm ảnh hưởng đến các cờ.
 
- -Lệnh **Not** thường được sử dụng để tạo dạng bù 1 của [Toán hạng đích].        
+Lệnh **Not** thường được sử dụng để tạo dạng bù 1 của [Toán hạng đích].        
 
 - Lệnh **And** (Logical And): Thực hiện phép tính logic And trên từng cặp bít (tương ứng về vị trí) của [Toán hạng nguồn] với [Toán hạng đích], kết quả lưu vào [Toán hạng đích].
 
 Lệnh **And** thường được sử dụng để xóa (= 0) một hoặc nhiều bít xác định nào đó trong một thanh ghi.
 
-- Lệnh **Or **(Logical Inclusive Or):Thực hiện phép tính logic Or trên từng cặp bít (tương ứng về vị trí) của [Toán hạng nguồn] với [Toán hạng đích], kết quả lưu vào [Toán hạng đích].
+- Lệnh **Or**(Logical Inclusive Or):Thực hiện phép tính logic Or trên từng cặp bít (tương ứng về vị trí) của [Toán hạng nguồn] với [Toán hạng đích], kết quả lưu vào [Toán hạng đích].
 
-Lệnh** Or **thường dùng để thiết lập (= 1) một hoặc nhiều bít xác định nào đó trong một thanh ghi.
+Lệnh**Or**thường dùng để thiết lập (= 1) một hoặc nhiều bít xác định nào đó trong một thanh ghi.
 
 - Lệnh **Xor** (eXclusive OR):Thực hiện phép tính logic Xor trên từng cặp bít (tương ứng về vị trí) của [Toán hạng nguồn] với [Toán hạng đích], kết quả lưu vào [Toán hạng đích].
 
@@ -212,9 +212,9 @@ Lệnh **Xor** thường dùng để so sánh (bằng nhau hay khác nhau
  `Mov      [Toán hạng đích], [Toán hạng nguồn]`
  rong đó:
 
--     [Toán hạng đích]: Có thể là thanh ghi (8 bít hay 16 bít), ô nhớ (chính xác hơn là địa chỉ của một ô nhớ) hay một biến nào đó. [Toán hạng đích] không thể là hằng số.   
+- [Toán hạng đích]: Có thể là thanh ghi (8 bít hay 16 bít), ô nhớ (chính xác hơn là địa chỉ của một ô nhớ) hay một biến nào đó. [Toán hạng đích] không thể là hằng số.   
 
--     [Toán hạng nguồn]: Có thể là hằng số, biến, thanh ghi, ô nhớ (chính xác hơn là địa chỉ của một ô nhớ) nào đó.
+- [Toán hạng nguồn]: Có thể là hằng số, biến, thanh ghi, ô nhớ (chính xác hơn là địa chỉ của một ô nhớ) nào đó.
 
 **Tác dụng**: Lấy nội dung (giá trị) của [Toán hạng nguồn] đặt vào [Toán hạng đích]. Nội dung của [Toán hạng nguồn] không bị thay đổi.
 
