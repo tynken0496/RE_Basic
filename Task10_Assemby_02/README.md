@@ -54,23 +54,25 @@
 
 #### 1.Thanh ghi cờ<a name="1"></a>
 
+
+
 #####1.1. Thanh ghi SP<a name="1.1"></a>
 
  - Thanh ghi SP (con trỏ ngăn xếp - Stack Poiter): Thanh ghi này luôn trỏ đến đỉnh hiện thời của stack - ngăn xếp.
 
-![thanhghi_SP]()
+![thanhghi_SP](http://i.imgur.com/LaViIeV.png)
 
 #####1.2. Thanh ghi BP<a name="1.2"></a>
 
  - Thanh ghi BP (con trỏ cơ sở - Base Poiter): Thanh ghi này được sử dụng để truy nhập dữ liệu trong ngăn xếp. Tuy nhiên khác với thanh ghi SP, thanh ghi này còn được sử dụng để truy nhập dữ liệu trong đoạn khác.
  
-![thanhghi_BP]()
+![thanhghi_BP](http://i.imgur.com/A1TBzJH.png)
 
 #####1.3. Thanh ghi IP<a name="1.3"></a>
 
  - Thanh ghi IP (con trỏ chỉ dẫn - Instruction Pointer): Đây là một thanh ghi rất quan trọng, nó được cập nhật mỗi khi có một lệnh được thực hiện, giá trị của thanh ghi này luôn trỏ đến câu lệnh tiếp theo sẽ được thực hiện. Khác với các thanh ghi khác, thanh ghi IP không thể bị tác động trực tiếp bởi các lệnh, do vậy trong các lệnh chúng ta sẽ không thấy sự có mặt của thanh ghi IP như một toán hạng.
 
-![thanhghi_IP]()
+![thanhghi_IP](http://i.imgur.com/0pxiUqc.png)
 
 
 
@@ -78,9 +80,9 @@
  
  - Hai thanh ghi SI (Chỉ số nguồn - Source Index) và DI (Chỉ số đích - Destination Index) thường được sử dụng trong các thao tác làm việc với chuỗi hoặc mảng.
 
-![thanhghi_SI]()
+![thanhghi_SI](http://i.imgur.com/CNcXi1F.png)
 
-![thanhghi_DI]()
+![thanhghi_DI](http://i.imgur.com/LaViIeV.png)
 
 
 ####2. Các thanh ghi dữ liệu công dụng chung (AX, BX, CX, DX)<a name="2"></a>
@@ -110,7 +112,7 @@
 
 ####4. Các thanh ghi con trỏ và chỉ số <a name="1"></a>
 
-![thanhghico]()
+![thanhghi](http://i.imgur.com/d42zGXE.png)
 
 ##### 4.1. Các cờ trạng thái <a name="2.1"></a>
 
@@ -118,37 +120,37 @@
 
 ##### 4.2.  Cờ nhớ - CF <a name="1.2"></a>
 
- - CF (Cờ nhớ - Carry Flag): Cờ này được thiết lập khi có nhớ từ bit msb trong phép cộng hay có vay vào bit msb.
+ - **CF** (Cờ nhớ - Carry Flag): Cờ này được thiết lập khi có nhớ từ bit msb trong phép cộng hay có vay vào bit msb.
 
 
 ##### 4.3. Cờ chẵn lẻ - PF<a name="4.3"></a>
 
- - PF (Cờ chẵn lẻ - Parity Flag): Cờ này bật khi kết quả của phép tính vừa thực hiện có chẵn bit 1. Nó bằng 0 nếu byte thấp có số lẻ bit 1(parity lẻ). Ví dụ kết quả của một phép cộng các word là FFFEh, như vậy byte thấp có 7 bit 1 do đó PF=0.
+ - **PF** (Cờ chẵn lẻ - Parity Flag): Cờ này bật khi kết quả của phép tính vừa thực hiện có chẵn bit 1. Nó bằng 0 nếu byte thấp có số lẻ bit 1(parity lẻ). Ví dụ kết quả của một phép cộng các word là FFFEh, như vậy byte thấp có 7 bit 1 do đó PF=0.
 
 ##### 4.4. Cờ nhớ phụ - AF<a name="4.4"></a>
  
- - AF (Cờ nhớ phụ - Auxilary Flag): Cờ này được thiết lập 1 nếu có nhớ bit 3 trong phép cộng hoặc có vay nào bit 3 trong phép trừ. Cờ AF được sử dụng trong các thao tác với số thập phân mã hóa nhị phân(số BCD).  
+ - **AF** (Cờ nhớ phụ - Auxilary Flag): Cờ này được thiết lập 1 nếu có nhớ bit 3 trong phép cộng hoặc có vay nào bit 3 trong phép trừ. Cờ AF được sử dụng trong các thao tác với số thập phân mã hóa nhị phân(số BCD).  
 
 ##### 4.5. Cờ Zero - ZF<a name="4.5"></a>
  
- - ZF (Cờ 0 - Zero Flag): Cờ này được bật khi kết quả của phép tính vừa thực hiện là 0.
+ - **ZF** (Cờ 0 - Zero Flag): Cờ này được bật khi kết quả của phép tính vừa thực hiện là 0.
 
 
 ##### 4.6. Cờ dấu - SF<a name="4.6"></a>
 
- - SF (Cờ dấu - Sign Flag): Cờ này được thiết lập 1 khi bit msb của kết quả bằng 1 có nghĩ là kết quả là âm nếu bạn làm việc với số có dấu. Ngược lại SF=0 nếu bit msb của kết quả bằng 0.
+ - **SF** (Cờ dấu - Sign Flag): Cờ này được thiết lập 1 khi bit msb của kết quả bằng 1 có nghĩ là kết quả là âm nếu bạn làm việc với số có dấu. Ngược lại SF=0 nếu bit msb của kết quả bằng 0.
 
 ##### 4.7. Cờ tràn - OF <a name="4.7"></a> 
 
- - OF (Cờ tràn - Overflow Flag): Cờ này bật khi phép tính vừa thực hiện gây ra tràn số.
+ - **OF** (Cờ tràn - Overflow Flag): Cờ này bật khi phép tính vừa thực hiện gây ra tràn số.
 
 ##### 4.8. Cờ ngắt <a name="4."></a>
 
- - IF (Cờ ngắt - Interrupt Flag): Cờ này bật để cho phép các ngắt xảy ra.
+ - **IF** (Cờ ngắt - Interrupt Flag): Cờ này bật để cho phép các ngắt xảy ra.
 
 ##### 4.9. Cờ hướng <a name="4."></a>
 
- - DF (Cờ hướng - Direction Flag): Cờ này bật để chọn chế độ giảm chỉ số tự động khi làm việc với mảng or làm việc với chuỗi ký tự từ phải sang trái.
+ - **DF** (Cờ hướng - Direction Flag): Cờ này bật để chọn chế độ giảm chỉ số tự động khi làm việc với mảng or làm việc với chuỗi ký tự từ phải sang trái.
 
 
 #### 5. Hiện tượng tràn <a name ="5"></a>
