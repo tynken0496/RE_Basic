@@ -6,7 +6,7 @@
 
 	Thực hiện:  Nguyễn Văn Thành
 
-	Cập nhật lần cuối: 
+	Cập nhật lần cuối: 14/01/2017
 
 ###Mục Lục
 
@@ -17,13 +17,11 @@
  - [2.1. Một ví dụ về lệnh nhảy](#2.1)
 
  - [2.2. Các lệnh nhảy có điều kiện](#2.2)
- <ul>
- <li>[2.2.1. Phạm vi của lệnh nhảy có điều kiện](#2.2.1)</li>
- <li>[2.2.2. CPU thực hiện một lệnh nhảy như thế nào](#2.2.2)</li>
- <li>[2.2.3. Các lệnh nhảy có dấu](#2.2.3)</li>
- <li>[2.2.4. Các lệnh nhảy không dấu](#2.2.4)</li>
- <li>[2.2.5. Các lệnh nhảy điều kiện đơn](#2.2.5)</li>
- </ul>
+- [2.2.1. Phạm vi của lệnh nhảy có điều kiện](#2.2.1)
+- [2.2.2. CPU thực hiện một lệnh nhảy như thế nào](#2.2.2)
+- [2.2.3. Các lệnh nhảy có dấu](#2.2.3)
+- [2.2.4. Các lệnh nhảy không dấu](#2.2.4)
+- [2.2.5. Các lệnh nhảy điều kiện đơn](#2.2.5)
 
  - [2.3. Lệnh JMP](#2.3)
 
