@@ -78,6 +78,7 @@ NUMBER_0:
     Mov dl,'0'
     Int 21h
     loop WHILE_2
+    jmp DOS
       
 NUMBER_1:
     Mov ah,2
