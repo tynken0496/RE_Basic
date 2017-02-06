@@ -30,10 +30,10 @@
 
  - Đề : Viết một chương trình thông báo cho người sử dụng vào một ký tự, in ra trên các dòng liên tiếp nhau mã ASCII của ký tự đó dưới dạng nhị phân, số các chữ số 1 trong mã ASCII dưới dạng nhi phân đó.
 
-	VÍ DỤ: 
-	Đánh vào một ký tự : A
- 	Mã ASCII của A dưới dạng nhi phân là : 01000001
- 	Số các bit 1 là 2
+VÍ DỤ: 
+Đánh vào một ký tự : A
+Mã ASCII của A dưới dạng nhi phân là : 01000001
+Số các bit 1 là 2
  
  - Code:
 
@@ -128,10 +128,10 @@ end
 
  - Đề bài : Viết chương trình thông báo cho người sử dụng đánh vào một ký tự và in mã ASCII của ký tự dưới dạng hex ở dòng tiếp theo.Lập lại cho đến khi người sử dụng đánh ENTER.
 
-	Ví dụ:
-	Đánh vào một ký tự: Z
-	Mã ASCII của Z dưới dạng hex là 5A
-	Đánh vào một ký tự:
+Ví dụ:
+Đánh vào một ký tự: Z
+Mã ASCII của Z dưới dạng hex là 5A
+Đánh vào một ký tự:
 
  - Code:
 
@@ -200,11 +200,11 @@ end
 
  - Đề bài: Viết chương trình thông báo cho người sử dụng đánh vào một số hex nhỏ hơn hay bằng 4 chữ số. Đưa ra số dưới dạng nhị phân ở dòng kế tiếp. Khi người sử dụng đưa vào một ký tự không hợp lệ, thông báo để cho họ vào lại. Chương trình chỉ nhận các chữ in hoa.
 
-	Ví Dụ:
-	Đánh vào một số hex(0..FFFF): 1a
-	Chữ số hex không hợp lệ, hãy nhập lại: 1ABC
-	Dưới dạng nhị phân nó bằng: 0001101010111100
-	Chương trình của bạn có thể bỏ qua các ký tự sau 4 ký tự đầu tiên.
+Ví Dụ:
+Đánh vào một số hex(0..FFFF): 1a
+Chữ số hex không hợp lệ, hãy nhập lại: 1ABC
+Dưới dạng nhị phân nó bằng: 0001101010111100
+Chương trình của bạn có thể bỏ qua các ký tự sau 4 ký tự đầu tiên.
 
  - Code:
 
@@ -311,10 +311,10 @@ DOS:
 
  - Đề Bài: Viết chương trình thông báo cho người sử dụng đánh vào một số nhị phân có nhỏ hơn hay bằng 16 chữ số. Đưa ra số dưới dạng hex ở dòng kế tiếp. Khi người sử dụng đưa vào một ký tự không hợp lệ, thông báo để họ vào lại.
 
- 	Ví Dụ: 
- 	Đánh vào một số nhị phân(nhiều nhất 16 chu so): 111000001
- 	Dưới dạng hex nó bằng: E1
- 	Chương trình của bạn có thể bỏ qua các ký tự sau 16 ký tự đầu tiên.
+Ví Dụ: 
+Đánh vào một số nhị phân(nhiều nhất 16 chu so): 111000001
+Dưới dạng hex nó bằng: E1
+Chương trình của bạn có thể bỏ qua các ký tự sau 16 ký tự đầu tiên.
 
  - Code:
 
@@ -419,10 +419,10 @@ end
 
  - Đề Bài: Viết một chương trình thông báo cho người sử dụng đưa vào 2 số nhị phân, mỗi số có 8 chữ số, in ra màn hình ở dòng tiếp theo tổng của chúng dưới dạng nhị phân. Mỗi khi người sử dụng đánh vào một ký tự không hợp leejj sẽ có thông báo yêu cầu vào lại. Mỗi số được nhận sau khi sử dụng đánh ENTER.
  	
- 	Ví Dụ: 
- 	Đánh vào một số nhị phân 8 chữ số: 11001010
- 	Đánh vào một số nhị phân 8 chữ số: 10011100
- 	Tổng của chúng dạng nhị phân bằng: 101100110
+Ví Dụ: 
+Đánh vào một số nhị phân 8 chữ số: 11001010
+Đánh vào một số nhị phân 8 chữ số: 10011100
+Tổng của chúng dạng nhị phân bằng: 101100110
 
  - Code:
 
@@ -438,10 +438,10 @@ end
 
  - Đề Bài: Viết một chương trình thông báo cho người sử dụng đưa vào 2 số hex không dấu trong từ 0 đến FFFFh, in ra màn hình ở dòng tiếp theo tổng của chúng dưới dạng hex. Mỗi khi người sử dụng đánh vào một ký tự không hợp lệ sẽ có thông báo yêu cầu vào lại. Chương trình của bạn phải có khả năng kiểm soát hiện tượng tràn không dấu. Mỗi số được nhận sau khi người sử dụng đánh ENTER.
 
- 	Ví Dụ: 
- 	Đánh vào một số hex, 0 - FFFF: 21AB
- 	Đánh vào một số hex, 0 - FFFF: FE03
- 	Tổng của chúng là: 11FAE
+Ví Dụ: 
+Đánh vào một số hex, 0 - FFFF: 21AB
+Đánh vào một số hex, 0 - FFFF: FE03
+Tổng của chúng là: 11FAE
 
  - Code:
 
@@ -621,9 +621,9 @@ end
 
  - Đề Bài: Viết một chương trình thông báo cho người sử dụng đánh vào một chuỗi các chữ số thập phân kết thúc bằng ENTER, và in ra màn hình ở dòng kế tiếp tổng của chúng ở dạng hex. Nếu người sử dụng đánh vào một ký tự không hợp lệ phải thông báo để họ vào lại.
 
- 	Ví Dụ: 
- 	Đánh vào một chuỗi các chữ số thập phân: 1299843
- 	Tổng của các chữ số dưới dạng hex là: 0024
+Ví Dụ: 
+Đánh vào một chuỗi các chữ số thập phân: 1299843
+Tổng của các chữ số dưới dạng hex là: 0024
 
  - Code:
 
@@ -713,6 +713,6 @@ end
 
  - Kết Quả:
 
-![Bài 14](http://i.imgur.com/3hFJGt3.gif)
+![Bài 14](http://i.imgur.com/mggDmEu.gif)
 
 
